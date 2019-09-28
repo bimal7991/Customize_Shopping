@@ -1,0 +1,57 @@
+Database Name - system
+Password - bimal@1997
+
+create table account(
+  usid varchar2(10) not null,
+  usname varchar2(30) not null,
+  usmail varchar2(50) not null,
+  usphone varchar2(12) not null,
+  uspsw varchar2(30) not null
+
+)
+create table footwear (
+ fid varchar2(10) not null,
+ fname varchar2(50) not null,
+ fimg varchar2(100) not null,
+ ftype vatchar2(20) not null,
+ fbrand varchar2(30),
+ fprice varchar2(10) not null,
+ fdisc varchar2(3)
+)
+create table kids (
+ fid varchar2(10) not null,
+ fname varchar2(50) not null,
+ fimg varchar2(100) not null,
+ ftype vatchar2(20) not null,
+ fbrand varchar2(30),
+ fprice varchar2(10) not null,
+ fdisc varchar2(3)
+)
+create table mobile (
+ fid varchar2(10) not null,
+ fname varchar2(50) not null,
+ fimg varchar2(100) not null,
+ ftype vatchar2(20) not null,
+ fbrand varchar2(30),
+ fprice varchar2(10) not null,
+ fdisc varchar2(3)
+)
+create table women_cloath (
+ fid varchar2(10) not null,
+ fname varchar2(50) not null,
+ fimg varchar2(100) not null,
+ ftype vatchar2(20) not null,
+ fbrand varchar2(30),
+ fprice varchar2(10) not null,
+ fdisc varchar2(3)
+)
+create table cart (
+ usname varchar2(30) not null;
+ fid varchar2(10) not null,
+ fname varchar2(50) not null,
+ fbrand varchar2(30),
+ fprice varchar2(10) not null,
+ fimg varchar2(100) not null,
+ ftype vatchar2(20) not null,
+ fdisc varchar2(3)
+)
